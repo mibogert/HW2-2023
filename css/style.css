@@ -10,7 +10,7 @@ body {
 h1 {
     font-size: 42px;
     text-align: center;
-    padding: 15px;
+    padding: 15px !important;
 }
 
 h2 {
@@ -24,7 +24,7 @@ p {
 }
 
 img {
-    width: 250px;
+    width: 250px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,20 +34,20 @@ img {
 div {
     height: auto;
     min-height: 125px;
-    padding: 20px;
+    padding: 20px !important;
     border: 3px solid #FFFFFF !important;
 }
 
 .introduction {
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 15px !important;
     line-height: 2.0;
 }
 
 .red {
     background-color: #FF0000;
     text-align: right;
-    margin-left: 50px;
+    margin-left: 50px !important;
     border-bottom: 2px !important;
     border-left: 5px !important;
 }
@@ -55,7 +55,7 @@ div {
 .blue {
     background-color: #0000FF;
     text-align: left;
-    margin-right: 50px;
+    margin-right: 50px !important;
     border-top: 2px !important;
     border-right: 5px !important;
 }
@@ -66,7 +66,7 @@ div {
 .yellow {
     background-color: #FFFF00;
     text-align: right;
-    margin-left: 50px;
+    margin-left: 50px !important;
     border-bottom: 2px !important;
     border-left: 5px !important;
 }
@@ -78,7 +78,7 @@ div {
 .green {
     background-color: #008500;
     text-align: left;
-    margin-right: 50px;
+    margin-right: 50px !important;
     border-top: 2px !important;
     border-right: 5px !important;
 }
@@ -90,6 +90,6 @@ footer {
 
 footer.p {
     text-align: right;
-    font-size: 20px;
+    font-size: 20px !important;
     padding: 15px 15px 15px 0px !important;
 }
