@@ -28,14 +28,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-style: 10px dashed #FFFFFF;
+    border: 10px dashed #FFFFFF;
 }
 
 div {
     height: auto;
     min-height: 125px;
     padding: 20px !important;
-    border-style: 3px solid #FFFFFF !important;
+    border: 3px solid #FFFFFF !important;
 }
 
 .introduction {
@@ -81,11 +81,11 @@ div {
 
 footer {
     background: linear-gradient(90deg, #000000, #0000FF 25%, #0066FF 70%, #000000 100%);
-    border-style: 5px solid #FFFFFF !important;
+    border: 5px solid #FFFFFF !important;
 }
 
 footer.p {
-    text-align: right;
+    text-align: right !important;
     font-size: 20px !important;
     padding: 15px 15px 15px 0px !important;
 }
